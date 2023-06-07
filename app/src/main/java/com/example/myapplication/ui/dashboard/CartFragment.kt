@@ -12,9 +12,6 @@ import com.example.myapplication.databinding.FragmentCartBinding
 class CartFragment : Fragment() {
 
     private var _binding: FragmentCartBinding? = null
-
-    // This property is only valid between onCreateView and
-    // onDestroyView.
     private val binding get() = _binding!!
 
     override fun onCreateView(
